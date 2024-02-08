@@ -3,7 +3,9 @@ import kena from "../assets/kena.svg";
 function About() {
   return (
     <div className="row bg-black" style={{ height: "100vh" }}>
-      <img src={kena} className="col-md-5" style={{ width: "400px" }} />
+      <div className="col-md-5" style={{marginTop:"0px"}}>
+      <img src={kena} style={{ width: "400px" , marginTop:"0px" }} />
+      </div>
       <p className="col-md-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
         facere ipsam, vitae eveniet architecto et, amet rerum minus commodi

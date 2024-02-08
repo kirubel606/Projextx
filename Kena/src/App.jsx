@@ -4,6 +4,7 @@ import { Button, Navbar, Nav } from 'react-bootstrap';
 import RotatingTextList from './scrollfade';
 import kena from './assets/kena.png';
 import About from './components/about';
+import Info from './components/info';
 function App() {
   const texts = [
     'Branding',
@@ -42,6 +43,7 @@ function App() {
          
         </div>
         <About/>
+        <Info/>
     </div>
   );
 }
