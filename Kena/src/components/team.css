@@ -1,0 +1,12 @@
+.shadowcard {
+    box-shadow: 0px 0px 15px 5px rgba(255, 215, 0, 0.5);
+  }
+
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  

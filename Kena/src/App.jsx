@@ -5,6 +5,7 @@ import RotatingTextList from './scrollfade';
 import kena from './assets/kena.png';
 import About from './components/about';
 import Info from './components/info';
+import Team from './components/team';
 function App() {
   const texts = [
     'Branding',
@@ -44,6 +45,7 @@ function App() {
         </div>
         <About/>
         <Info/>
+        <Team/>
     </div>
   );
 }

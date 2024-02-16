@@ -3,7 +3,9 @@ import * as React from "react";
 function Info() {
   return (
     <div className="container">
-      <div className="row" style={{ height: "50vh", marginTop: "200px" }}>
+      <h1 className="text-center col-md-12 " style={{marginTop:"20px"}}>Why Work With us ?</h1>
+      <div className="row" style={{ height: "50vh", marginTop: "180px" }}>
+        
         <div className="col-md-6">
           <svg
             width="280"
@@ -48,7 +50,7 @@ function Info() {
             viewBox="0 0 315 351"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            style={{marginLeft:"40%"}}
+            style={{ marginLeft: "40%" }}
           >
             <path
               fill-rule="evenodd"
@@ -81,14 +83,13 @@ function Info() {
 
         <div className="col-md-6">
           <p>
-            molestias quaerat optio autem dolorum aut enim cupiditate tempore.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam hic
-            corporis error repudiandae, sequi assumenda cupiditate nobis rem
-            voluptates cumque cum nesciunt fuga, dolor nulla consectetur illum
-            eveniet perferendis ea! Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Harum enim dignissimos mollitia! Saepe, veniam
-            non, animi quibusdam placeat eligendi eaque sit fugiat doloremque
-            praesentium ea minima temporibus, ad id fuga!Lorem
+            The potential of your online presence is a click away, with our
+            expertise in crafting responsive, effective, and visually stunning
+            websites and branding. Our team of seasoned professionals bring
+            proven experience in delivering tailored solutions that captivate
+            users and drive results. From intuitive user interfaces to strategic
+            SEO implementations, we're committed to enhancing your brand's
+            appeal and visibility.
           </p>
         </div>
       </div>
