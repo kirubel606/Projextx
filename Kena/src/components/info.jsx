@@ -3,7 +3,7 @@ import * as React from "react";
 function Info() {
   return (
     <div className="container">
-      <h1 className="text-center col-md-12 " style={{marginTop:"20px"}}>Why Work With us ?</h1>
+      <h1 className="text-center col-md-12 " style={{marginTop:"50px"}}>Why Work With us ?</h1>
       <div className="row" style={{ height: "50vh", marginTop: "180px" }}>
         
         <div className="col-md-6">
