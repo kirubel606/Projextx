@@ -10,6 +10,7 @@ import Info from './components/info';
 import Team from './components/team';
 import Footer from './components/footer';
 import Services from './components/services';
+import Contact from './components/contact';
 
 
 function App() {
@@ -81,11 +82,10 @@ function App() {
             <Link activeClass="active" to="services" spy={true} smooth={true} offset={0} duration={500}>Works</Link>
           </Nav.Link>
           <Nav.Link>
-            <Link activeClass="active" to="footer" spy={true} smooth={true} offset={0} duration={500}>Contact</Link>
+            <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}>Contact</Link>
           </Nav.Link>
         </Nav>
       </Navbar>
-
       <div className="row" style={{ height: "100vh" }}>
         <div className="col-md-6 textcarosel">
           <RotatingTextList texts={texts} />
@@ -111,6 +111,9 @@ function App() {
       </Element>
       <Element name="services" className="element">
         <Services />
+      </Element>
+      <Element name="contact" className="element">
+        <Contact />
       </Element>
       <Element name="footer" className="element">
         <Footer />
