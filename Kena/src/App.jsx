@@ -11,6 +11,7 @@ import Team from './components/team';
 import Footer from './components/footer';
 import Services from './components/services';
 
+
 function App() {
   const texts = [
     'Branding',
