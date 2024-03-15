@@ -92,7 +92,7 @@ function App() {
         </div>
         <div className='col-md-5 text-center' >
           {/* Button for scrolling to the footer */}
-          <Link activeClass="active" to="footer" spy={true} smooth={true} offset={0} duration={500}>
+          <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}>
             <Button className="bg-black mx-auto" style={{ width: "200px", height: "50px", marginTop: "25%", borderColor: 'gray', borderRadius: "5px" }} >
               Contact
             </Button>
