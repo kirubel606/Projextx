@@ -1,0 +1,49 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border: 2px solid #000; /* adjust border color and thickness as needed */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  .circle img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .service {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  .service h3 {
+    color: white;
+  }
+  
+  .service:hover .description {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .description {
+    position: absolute;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+  
